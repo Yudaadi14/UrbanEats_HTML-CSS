@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins&family=Tangerine:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2B2B28;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4C3D3D;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+}
+
+.navitem {
+    float: left;
+}
+
+.navitem a {
+    display: block;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    color: #F1EFDC;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navitem a:hover {
+    background-color: #4c3d3d49;
+    color: white;
+}
+
+h1 {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #EEB76B;
+    margin: 0;
+}
+h1.right {
+    text-align: right;
+}
+
+p {
+    margin: 0;
+    display: inline-block;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #F8F8F8;     
+}
+p.right {
+    float: right;
+}
+
+.topbox {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+    padding-top: 50px;
+    border-bottom: 5px double #EEB76B;
+}
+.homeimg {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+.rightbox {
+    display: block;
+    width: 45%;
+    height: 300px;
+    float: right;
+    text-align: right;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-right: 5%;
+}
+.leftbox {
+    display: block;
+    width: 45%;
+    height: 300px;
+    float: left;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 5%;
+    padding: 0;
+}
+
+.center {
+    
+    text-align: center;
+    padding-bottom: 50px;
+}
+.btn {
+    display: inline-block;
+    background-color: #4C3D3D;
+    justify-content:  center;
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid #EEB76B;
+    border-radius: 6px;
+    height: 45px;
+}
+.btn a {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #F1EFDC;
+    text-decoration: none;
+    padding: 30px;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: #4c3d3d49;
+}
+
+footer {
+    background-color: #4C3D3D;
+    text-align: center;
+    padding: 20px 0;
+}
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+footer li {
+    margin-bottom: 10px;
+}
+footer a {
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    color: #F1EFDC;
+    text-decoration: none;
+}
+footer a:hover {
+    color: white;
+}
